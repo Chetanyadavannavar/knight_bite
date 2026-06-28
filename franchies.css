@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+
+
+.header {
+    width: 100%;
+    background-color: transparent;
+    padding: 1vw 1vh;
+    position: fixed;
+    top: 0;
+    display: flex;
+
+
+
+
+}
+
+.logo {
+    width: 140px;
+    height: 65px;
+    /* border: 1px solid white; */
+    /* padding: 1vw 1vh; */
+    transform: translate(60%);
+    margin-top: 18px;
+    display: inline;
+    background-image: url(./img/logo.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* image-resolution: initial; */
+}
+
+.nav {
+    display: block;
+    margin-left: 58%;
+    margin-top: 50px;
+}
+
+.nav ul li {
+    display: inline-block;
+    padding-right: 50px;
+
+    list-style: none;
+
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    font-weight: lighter;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+
+
+}
+
+.nav ul li a:hover {
+    color: red;
+}
+
+.container img {
+    width: 100%;
+    height: 100vh;
+}
+
+.mission {
+    margin: 5% 30% auto;
+}
+
+#mission {
+    text-align: center;
+    font-size: xx-large;
+    letter-spacing: 5px;
+    font-family: sans-serif;
+}
+
+#para1 {
+    margin-top: 5%;
+    margin-left: 16%;
+    width: 400px;
+    text-align: center;
+    font-size: larger;
+    line-height: 30px;
+    font-weight: lighter;
+}
+
+#para2 {
+    margin-top: 5%;
+    margin-left: 16%;
+    width: 400px;
+    text-align: center;
+    font-size: larger;
+    line-height: 30px;
+    font-weight: lighter;
+}
+
+
+footer {
+    text-align: center;
+    font-size: x-large;
+    background-color: hotpink;
+    padding: 1vw 2vh;
+
+}
